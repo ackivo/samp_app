@@ -11,5 +11,8 @@ def home
     @title = "About"
   end
 
+  def help
+    @title = "Help"
+  end
 
 end
