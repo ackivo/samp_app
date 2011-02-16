@@ -7,10 +7,6 @@ SampApp::Application.routes.draw do
   match '/about',   :to => 'pages#about'
   match '/help',    :to => 'pages#help'
   match '/', :to => 'pages#home'
-
-
-  root :to => 'pages#home'
-
   
   get "pages/home"
 
